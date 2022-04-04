@@ -4,7 +4,7 @@
 **开发人员列表：**
 
 - [ExistoT01](https://github.com/ExistoT01?tab=repositories)
-- raw recruit
+- [raw recruit](https://github.com/rawrecruit1?tab=repositories)
 - [魏](https://github.com/zxxcccvvv?tab=repositories)
 - [MaryQing](https://github.com/MaryQing?tab=repositories)
 
