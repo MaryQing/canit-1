@@ -18,23 +18,23 @@
 
 1. 主页(ExistoT01)
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220404183409171.png" alt="image-20220404183409171" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202204041842002.png" alt="image-20220404183409171" style="zoom:80%;" />
 
 2. 广场(MaryQing)
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220404183450443.png" alt="image-20220404183450443" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202204041842004.png" alt="image-20220404183450443" style="zoom:80%;" />
 
 所有功能先不实现，只做布局
 
 3. 普及知识(zxxcccvvv)
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220404183710281.png" alt="image-20220404183710281" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202204041842005.png" alt="image-20220404183710281" style="zoom:80%;" />
 
 功能不做，三个页面实现逻辑跳转
 
 4. 个人界面(raw recruit)
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220404183816122.png" alt="image-20220404183816122" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202204041842006.png" alt="image-20220404183816122" style="zoom:80%;" />
 
 同样功能不做
 
