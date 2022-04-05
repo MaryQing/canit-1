@@ -1,2 +1,43 @@
 <!--pages/homepage/homepage.wxml-->
-<text>pages/homepage/homepage.wxml</text>
+
+<!-- 轮播图 -->
+<swiper class="swiper-container" indicator-dots circular>
+
+    <!-- 广告&海报 -->
+    <swiper-item>
+        <view class="item">广告&海报_1</view>
+    </swiper-item>
+
+    <swiper-item>
+        <view class="item">广告&海报_2</view>
+    </swiper-item>
+
+</swiper>
+
+<!-- 日历区域 -->
+<view class="calendar">
+    
+</view>
+
+<!-- 四大板块区域 -->
+<view class="four_plate">
+    <view class="plate-item">
+        <image src="/images/icons/morning.png"></image>
+        <view>早上</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/midday.png"></image>
+        <view>中午</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/night.png"></image>
+        <view>晚上</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/fruits.png"></image>
+        <view>水果</view>
+    </view>
+</view>
