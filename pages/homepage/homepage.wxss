@@ -1,1 +1,17 @@
 /* pages/homepage/homepage.wxss */
+.swiper-container {
+    height: 100px;
+}
+.item {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+swiper-item:nth-child(1) .item{
+    background-color: gray;
+}
+
+swiper-item:nth-child(2) .item{
+    background-color: lightblue;
+}

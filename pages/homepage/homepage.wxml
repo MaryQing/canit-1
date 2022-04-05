@@ -1,2 +1,15 @@
 <!--pages/homepage/homepage.wxml-->
-<text>pages/homepage/homepage.wxml</text>
+
+<!-- 轮播图 -->
+<swiper class="swiper-container" indicator-dots circular>
+
+    <!-- 广告&海报 -->
+    <swiper-item>
+        <view class="item">广告&海报_1</view>
+    </swiper-item>
+
+    <swiper-item>
+        <view class="item">广告&海报_2</view>
+    </swiper-item>
+
+</swiper>
