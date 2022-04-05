@@ -1,12 +1,49 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/homepage/homepage",
+        "pages/suqarepage/squarepage",
+        "pages/knowledgepage/knowledgepage",
+        "pages/shoppage/shoppage",
+        "pages/centerpage/centerpage"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "轻c物语",
         "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/homepage/homepage",
+            "text": "搭配",
+            "iconPath": "/images/tabs/collocation.png",
+            "selectedIconPath": "/images/tabs/collocation-active.png"
+        },
+        {
+            "pagePath": "pages/suqarepage/squarepage",
+            "text": "广场",
+            "iconPath": "/images/tabs/square.png",
+            "selectedIconPath": "/images/tabs/square-active.png"
+        },
+        {
+            "pagePath": "pages/knowledgepage/knowledgepage",
+            "text": "知识",
+            "iconPath": "/images/tabs/knowledge.png",
+            "selectedIconPath": "/images/tabs/knowledge-active.png"
+        },
+        {
+            "pagePath": "pages/shoppage/shoppage",
+            "text": "商城",
+            "iconPath": "/images/tabs/shop.png",
+            "selectedIconPath": "/images/tabs/shop-active.png"
+        },
+        {
+            "pagePath": "pages/centerpage/centerpage",
+            "text": "个人",
+            "iconPath": "/images/tabs/center.png",
+            "selectedIconPath": "/images/tabs/center-active.png"
+        }
+    ]
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"
