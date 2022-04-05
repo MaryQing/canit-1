@@ -18,7 +18,7 @@
 
 1. 主页(ExistoT01)
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220404200811028.png" alt="image-20220404200811028" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202204051119925.png" alt="image-20220404200811028" style="zoom:80%;" />
 
 2. 广场(MaryQing)
 
