@@ -13,3 +13,31 @@
     </swiper-item>
 
 </swiper>
+
+<!-- 日历区域 -->
+<view class="calendar">
+    
+</view>
+
+<!-- 四大板块区域 -->
+<view class="four_plate">
+    <view class="plate-item">
+        <image src="/images/icons/morning.png"></image>
+        <view>早上</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/midday.png"></image>
+        <view>中午</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/night.png"></image>
+        <view>晚上</view>
+    </view>
+
+    <view class="plate-item">
+        <image src="/images/icons/fruits.png"></image>
+        <view>水果</view>
+    </view>
+</view>

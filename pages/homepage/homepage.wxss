@@ -1,17 +1,57 @@
 /* pages/homepage/homepage.wxss */
 .swiper-container {
-    height: 100px;
+    height: 120px;
 }
 .item {
-    height: 100px;
-    line-height: 100px;
+    height: 100%;
+    line-height: 120px;
     text-align: center;
 }
 
 swiper-item:nth-child(1) .item{
-    background-color: gray;
+    background-color: lightblue;
 }
 
 swiper-item:nth-child(2) .item{
-    background-color: lightblue;
+    background-color: lightgray;
+}
+
+/* 日历 */
+.calendar {
+    height: 180rpx;
+    background-color: lightgreen;
+    margin-top: 20rpx;
+}
+
+/* 四大板块 */
+.four_plate {
+    /* background-color: lightgray; */
+    height: 600rpx;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20rpx 20rpx;
+    justify-content: space-around;
+}
+
+.plate-item {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1rpx solid lightgray;
+    border-bottom: 1rpx solid lightgray;
+    border-top: 1rpx solid lightgray;
+    border-left: 1rpx solid lightgray;
+    box-sizing: border-box;
+}
+
+.plate-item image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.plate-item text {
+    font-size: 24rpx;
 }
