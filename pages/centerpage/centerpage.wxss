@@ -1,1 +1,142 @@
-/* pages/centerpage/centerpage.wxss */
+/*昵称板块*/
+.name{
+    display: flex;
+    height: 150rpx;
+    flex-wrap: wrap;
+    padding: 20rpx 20rpx;
+    justify-content: space-around;
+}
+
+.photo{
+    width: 20%;
+    display: flex;
+    height: 100rpx;
+    flex-direction:inherit;
+    align-items:center;
+    justify-content: center;
+    border-right: 1rpx solid white;
+    border-bottom: 1rpx solid white;
+    border-top: 1rpx solid white;
+    border-left: 1rpx solid white;
+    box-sizing: border-box;
+}
+
+.arrows{
+    width: 20%;
+    height: 100rpx;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content: center;
+    border-right: 1rpx solid white;
+    border-bottom: 1rpx solid white;
+    border-top: 1rpx solid white;
+    border-left: 1rpx solid white;
+    box-sizing: border-box;
+}
+.photo image{
+    width: 70rpx;
+    height:70rpx;
+}
+.arrows image{
+    width: 70rpx;
+    height:70rpx;
+}
+.photo text{
+    font-size: 12rpx;
+    margin-right: 20rpx;
+}
+.arrows text{
+    font-size: 12rpx;
+    margin-left: 50rpx;
+}
+
+/*互动区板块*/
+.commit {
+    /* background-color: lightgray; */
+    height: 200rpx;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rpx 10rpx;
+    justify-content: space-around;
+}
+
+.interact {
+    width: 30%;
+    height:150rpx;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border-right: 1rpx solid white;
+    border-bottom: 1rpx solid white;
+    border-top: 1rpx solid white;
+    border-left: 1rpx solid white;
+    box-sizing: border-box;
+    margin-top: 10rpx;
+}
+
+.interact image {
+    width: 33.33%;
+    
+}
+
+.interact text {
+    font-size: 24rpx;
+}
+
+/*碳足迹，卡路里板块*/
+.carbon{
+    height: 240rpx;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20rpx 20rpx;
+    justify-content: space-around;
+}
+.pace{
+    width: 40%;
+    height: 200rpx;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border-right: 1rpx solid white;
+    border-bottom: 1rpx solid white;
+    border-top: 1rpx solid white;
+    border-left: 1rpx solid white;
+    box-sizing: border-box;
+    margin-top: 10rpx;
+}
+
+.pace image{
+    width: 120rpx;
+    height:120rpx;
+}
+.pace text{
+    font-size: 48rpx;
+    margin-top: 10rpx;
+}
+
+/*底部板块*/
+.bottom view{
+    width: 375px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 10rpx;
+}
+.bottom view:nth-child(1){
+background-color: lightseagreen;
+}
+.bottom view:nth-child(2){
+    background-color: lightslategray;
+}
+.bottom view:nth-child(3){
+    background-color:limegreen;
+}
+.bottom view:nth-child(4){
+    background-color: magenta;
+}
+.bottom view:nth-child(5){
+    background-color:mediumturquoise;
+}
+

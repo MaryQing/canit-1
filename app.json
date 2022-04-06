@@ -1,10 +1,15 @@
 {
     "pages": [
+ 
         "pages/homepage/homepage",
+        "pages/centerpage/centerpage",
         "pages/suqarepage/squarepage",
         "pages/knowledgepage/knowledgepage",
         "pages/shoppage/shoppage",
-        "pages/centerpage/centerpage"
+        "pages/index/index",
+        "pages/home/home"
+        
+
     ],
     "window": {
         "backgroundTextStyle": "light",
