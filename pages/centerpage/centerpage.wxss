@@ -1,7 +1,7 @@
 /*昵称板块*/
 .name{
     display: flex;
-    height: 150rpx;
+    height: 90rpx;
     flex-wrap: wrap;
     padding: 20rpx 20rpx;
     justify-content: space-around;
@@ -10,7 +10,7 @@
 .photo{
     width: 20%;
     display: flex;
-    height: 100rpx;
+    height: 90rpx;
     flex-direction:inherit;
     align-items:center;
     justify-content: center;
@@ -21,9 +21,10 @@
     box-sizing: border-box;
 }
 
+
 .arrows{
     width: 20%;
-    height: 100rpx;
+    height: 90rpx;
     display: flex;
     flex-direction:row-reverse;
     align-items:center;
@@ -54,7 +55,7 @@
 /*互动区板块*/
 .commit {
     /* background-color: lightgray; */
-    height: 200rpx;
+    height: 120rpx;
     display: flex;
     flex-wrap: wrap;
     padding: 10rpx 10rpx;
@@ -63,7 +64,7 @@
 
 .interact {
     width: 30%;
-    height:150rpx;
+    height:120rpx;
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -87,7 +88,7 @@
 
 /*碳足迹，卡路里板块*/
 .carbon{
-    height: 240rpx;
+    height: 200rpx;
     display: flex;
     flex-wrap: wrap;
     padding: 20rpx 20rpx;
@@ -95,7 +96,7 @@
 }
 .pace{
     width: 40%;
-    height: 200rpx;
+    height: 170rpx;
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -120,21 +121,21 @@
 /*底部板块*/
 .bottom view{
     width: 375px;
-    height: 70px;
-    line-height: 70px;
+    height: 54px;
+    line-height: 54px;
     margin-top: 10rpx;
 }
 .bottom view:nth-child(1){
-background-color: lightseagreen;
+background-color:cadetblue;
 }
 .bottom view:nth-child(2){
     background-color: lightslategray;
 }
 .bottom view:nth-child(3){
-    background-color:limegreen;
+    background-color:green;
 }
 .bottom view:nth-child(4){
-    background-color: magenta;
+    background-color:grey;
 }
 .bottom view:nth-child(5){
     background-color:mediumturquoise;
