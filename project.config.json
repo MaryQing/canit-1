@@ -1,7 +1,8 @@
 {
-    "description": "项目配置文件，详见文档：%s",
+    "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
     "packOptions": {
-        "ignore": []
+        "ignore": [],
+        "include": []
     },
     "setting": {
         "urlCheck": true,
@@ -36,42 +37,19 @@
         "packNpmRelationList": [],
         "minifyWXSS": true,
         "disableUseStrict": false,
+        "minifyWXML": true,
         "showES6CompileOption": false,
         "useCompilerPlugins": false,
         "ignoreUploadUnusedFiles": true,
-        "minifyWXML": true
+        "useStaticServer": true
     },
     "compileType": "miniprogram",
     "libVersion": "2.23.3",
     "appid": "wx448479bc42ab9fc4",
     "projectname": "canit",
-    "debugOptions": {
-        "hidedInDevtools": []
-    },
-    "scripts": {},
-    "staticServerOptions": {
-        "baseURL": "",
-        "servePath": ""
-    },
-    "isGameTourist": false,
-    "condition": {
-        "search": {
-            "list": []
-        },
-        "conversation": {
-            "list": []
-        },
-        "game": {
-            "list": []
-        },
-        "plugin": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        },
-        "miniprogram": {
-            "list": []
-        }
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
     }
 }

@@ -1,2 +1,58 @@
 <!--pages/centerpage/centerpage.wxml-->
-<text>pages/centerpage/centerpage.wxml</text>
+
+<!--昵称板块-->
+<view class="name">
+    <view class="photo">
+        <image src="/images/personal/用户.png"></image>
+        <view>用户名</view>
+    </view>
+       
+    <view class="arrows">
+        <image src="/images/personal/右箭头.png"></image>
+        <view>个人主页</view>
+    </view>
+
+</view>
+
+<!--互动板块-->
+<view class="commit">
+    <view class="interact">
+        <image src="/images/personal/like.png" mode="widthFix"></image>
+        <view>赞</view>
+    </view>
+
+    <view class="interact">
+        <image src="/images/personal/follow.png" mode="widthFix"></image>
+        <view>关注</view>
+    </view>
+
+    <view class="interact">
+        <image src="/images/personal/favorite.png" mode="widthFix"></image>
+        <view>收藏</view>
+    </view>
+
+</view>
+
+<!--碳足迹，卡路里板块-->
+<view class="carbon">
+    <view class="pace">
+        <image src="/images/personal/碳足迹.png"></image>
+        <view>碳足迹</view>
+    </view>
+
+    <view class="pace">
+       <image src="/images/personal/卡路里.png"></image>
+       <view>卡路里/周</view>
+    </view>
+</view>
+
+<!--底部板块-->
+<view class="bottom">
+    <view>健康数据</view>
+    <view>排行榜</view>
+    <view>我的森林</view>
+    <view>活动进度</view>
+    <view>我的帖子</view>
+</view>
+
+
