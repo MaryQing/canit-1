@@ -15,9 +15,18 @@
 </swiper>
 
 <!-- 日历区域 -->
-<view class="calendar">
-    
+<view class="week_view">
+    <view class="week" wx:for="{{array_week}}">
+        {{item}}
+    </view>
 </view>
+
+<view class="date_view">
+    <view class="date" wx:for="{{array_date}}">
+        {{item}}
+    </view>
+</view>
+
 
 <!-- 四大板块区域 -->
 <view class="four_plate">

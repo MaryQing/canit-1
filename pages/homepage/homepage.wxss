@@ -17,10 +17,21 @@ swiper-item:nth-child(2) .item{
 }
 
 /* 日历 */
-.calendar {
-    height: 180rpx;
-    background-color: lightgreen;
-    margin-top: 20rpx;
+
+.week_view {
+    display: flex;
+    height: 90rpx;   
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 8rpx solid lightskyblue;
+}
+
+
+.date_view {
+    display: flex;
+    height: 90rpx;   
+    align-items: center;
+    justify-content: space-around;  
 }
 
 /* 四大板块 */
