@@ -1,14 +1,25 @@
 {
     "pages": [
- 
+        
         "pages/homepage/homepage",
         "pages/centerpage/centerpage",
         "pages/suqarepage/squarepage",
         "pages/knowledgepage/knowledgepage",
         "pages/shoppage/shoppage",
         "pages/index/index",
-        "pages/home/home"
+        "pages/home/home",
         
+        
+        
+        "pages/square/square",
+        "pages/search/search",  
+        "pages/demo02/demo02",     
+        "pages/demo01/demo01",
+        "pages/homeyanshi/homeyanshi",
+        "pages/submmityanshi/submmityanshi"
+
+
+
 
     ],
     "window": {
@@ -50,6 +61,10 @@
         }
     ]
     },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"
 }

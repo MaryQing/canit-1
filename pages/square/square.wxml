@@ -1,0 +1,80 @@
+<!-- 导航栏 -->
+<view class="custom flex_center" style="padding-top:{{statusBarHeight}}px">
+  <image class='nav_logo' src='/Icon/logo/dangpu.png'></image>
+  <view class='navInput' bindtap="schoolName" >
+    <image src='/img/peo.png' bindtap="barjump"></image>
+    <text>广场</text>
+  </view>
+</view>
+<view class="empty_custom" style="padding-top:{{statusBarHeight}}px"></view>
+
+<!-- 页内面容 -->
+<view  class="container1" >
+<view class="flexable">
+<!-- 伸缩盒子 -->
+<view id='tabs'>
+  <view class='tabs-box'>
+    <block wx:for="{{['关注','推荐','附近']}}" wx:key="index">
+      <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap' data-index='{{index}}'>
+        {{item}}      
+      </view>
+    </block>
+  </view>
+</view>
+  <!-- <view class='ordert-detail'>
+    <view hidden='{{currentTabIndex != 0}}'>页面1</view>
+    <view hidden='{{currentTabIndex != 1}}'>页面2</view>
+    <view hidden='{{currentTabIndex != 2}}'>页面3</view>
+    <view hidden='{{currentTabIndex != 3}}'>页面4</view>
+  </view> -->
+</view>
+<!-- 搜索框 -->
+  <view class="section">
+   <navigator url="/pages/search/search" hover-class="navigator-hover">
+    <view class="search" >搜索</view>
+    <image src="../../img/searching.png"/>
+    </navigator>
+  </view>
+  <!-- 轮播图片 -->
+  <view class="swiper-box">
+    <swiper indicator-dots="{{swiper.indicatorDots}}" indicator-color="{{swiper.indicatorColor}}" indicator-active-color="{{swiper.indicatorActiveColor}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="{{swiper.s}}">
+      <block wx:for="{{swiper.imgUrls}}" wx:key="id">
+        <swiper-item>
+            <navigator  data-id="{{item.id}}" url="/pages/demo01/demo01" hover-class="navigator-hover">
+                <image src="{{item.name}}" class="slide-image" mode="apsectFit"/>
+           </navigator>
+        </swiper-item>
+        
+      </block>
+    </swiper>
+  </view>
+  <!-- 达人展示 -->
+  <view class="todayNew">
+    <view class="todayTitle">
+      达人展示
+    </view>
+    <view class="todayList " >
+    <view class="good">
+      <image class="dianzantu" src="{{favor_img}}" bindtap="praiseThis"  wx:if="{{show == true}}" mode="widthFix" />
+    <image class="dianzantu"src="{{favor_img2}}" bindtap="praiseThis"  wx:else mode="widthFix" /><view class='title'>{{like}}人点赞</view>
+  </view>
+       <navigator class="todayItem " wx:for="{{todayListArr}}" wx:key="id" data-id="{{item.id}}" url="/pages/demo02/demo02" hover-class="navigator-hover">
+            <image src="{{item.imgUrl}}"/> 
+            <text>{{item.text}}</text>
+        </navigator>
+    </view>
+    </view>
+  <!-- 上拉加载更多 -->
+  <view hidden="{{noMore}}">
+    <view class="loadMore" hidden="{{isLoading}}">上拉加载更多</view>
+    <view class="loadMore" hidden="{{!isLoading}}">加载中...</view>
+  </view>
+  <view class="loadMore" hidden="{{!noMore}}">没有更多数据</view>
+</view>
+<!-- 发布 -->
+<view class='butt'>
+<button class='.bt_2'  hover-class="hover" bindtap="handlesubmmit"
+id="btn"  disabled="{{isDisabled}}">发布
+</button>
+</view>
